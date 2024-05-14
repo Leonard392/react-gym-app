@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./front/views/home";
-import Navbar from "./front/components/navbar.jsx";
-import Footer from "./front/components/footer.jsx";
+import Navbar from "./front/components/Navbar.jsx";
+import Footer from "./front/components/Footer.jsx";
 
 function App() {
   return (
