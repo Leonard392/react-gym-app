@@ -1,6 +1,7 @@
 import React from "react";
 import Features from "../components/Features";
 import Suplement from "../components/Suplement";
+import Rates from "../components/Rates";
 import "../styles/home.css";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       </div>
       <Features />
       <Suplement />
+      <Rates />
     </div>
   );
 }
