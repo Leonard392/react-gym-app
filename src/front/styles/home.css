@@ -1,0 +1,30 @@
+.main-home{
+    height: 87vh;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.main-home h1{
+    font-size: 3.5rem;
+}
+
+.main-home h2{
+    font-size: 2rem;
+}
+
+.main-home p{
+    font-size: 1.4rem;
+}
+
+.main-home h1,
+.main-home h2,
+.main-home p{
+    margin-bottom: 20px;
+}
+
+.weight-icon{
+    font-size: 3rem;
+    margin-top: 40px;
+}
