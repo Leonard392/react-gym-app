@@ -1,4 +1,5 @@
 import React from "react";
+import Features from "../components/Features";
 import "../styles/home.css";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         </p>
         <i class="fa-solid fa-dumbbell weight-icon"></i>
       </div>
+      <Features />
     </div>
   );
 }
