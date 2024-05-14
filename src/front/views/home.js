@@ -1,5 +1,6 @@
 import React from "react";
 import Features from "../components/Features";
+import Suplement from "../components/Suplement";
 import "../styles/home.css";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <i class="fa-solid fa-dumbbell weight-icon"></i>
       </div>
       <Features />
+      <Suplement />
     </div>
   );
 }
