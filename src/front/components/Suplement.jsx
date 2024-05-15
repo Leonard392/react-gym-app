@@ -19,7 +19,7 @@ export default function Suplement() {
         </div>
       </div>
       <div className="right-suplement">
-        <img src={suplementimport} alt="image" className="suplement-img" />
+        <img src={suplementimport} alt="suplement" className="suplement-img" />
       </div>
     </div>
   );

@@ -1,9 +1,13 @@
 .main-home{
-    height: 87vh;
+    height: 70vh;
     width: 40%;
     margin: 0 auto;
     margin-top: 150px;
     text-align: center;
+}
+
+br{
+    color: brown;
 }
 
 .main-home h1{
@@ -39,12 +43,22 @@
 
 .left-img{
     margin-left: 25%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.left-img:hover{
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
 }
 
 .features .right{
     width: 45%;
-    background-color: brown;
-    color: white;
+    background-color: white;
+    color: brown;
 }
 
 .right h2{
@@ -67,8 +81,8 @@
 
 
 .suplement-section{
-    background-color: brown;
-    color: white;
+    background-color: white;
+    color: brown;
     display: flex;
     height: 750px;
 }
