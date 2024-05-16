@@ -5,10 +5,14 @@ import "../styles/navbar.css";
 export default function Navbar() {
   return (
     <div className="navbar">
-      <h1 className="brand">Brand Gym</h1>
+      <Link to="/" className="navbar-link">
+        <h1 className="brand">Brand Gym</h1>
+      </Link>
 
       <div className="navbar-list">
-        <a href="#rates" className="navbar-link navbar-item">Rates</a>
+        <a href="#rates" className="navbar-link navbar-item">
+          Rates
+        </a>
         <Link to="/facilities" className="navbar-link">
           <p className="navbar-item">Our Facilities</p>
         </Link>
