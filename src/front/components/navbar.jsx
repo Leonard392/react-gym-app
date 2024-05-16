@@ -8,16 +8,14 @@ export default function Navbar() {
       <h1 className="brand">Brand Gym</h1>
 
       <div className="navbar-list">
-        <Link to="/" className="navbar-link">
-          <p className="navbar-item">Rates</p>
-        </Link>
-        <Link to="/" className="navbar-link">
+        <a href="#rates" className="navbar-link navbar-item">Rates</a>
+        <Link to="/facilities" className="navbar-link">
           <p className="navbar-item">Our Facilities</p>
         </Link>
-        <Link to="/" className="navbar-link">
+        <Link to="/suplements" className="navbar-link">
           <p className="navbar-item">Suplements</p>
         </Link>
-        <Link to="/" className="navbar-link">
+        <Link to="/aboutUs" className="navbar-link">
           <p className="navbar-item">About Us</p>
         </Link>
       </div>
