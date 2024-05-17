@@ -13,7 +13,7 @@ export default function Suplement() {
             asd asd asd as das d asd as das dasd asd as ad asd asd ad a sdasdas
             das dasdasd asd as d asd asd asd asd asdas asdsadasdasdasd.
           </p>
-          <Link to="/">
+          <Link to="/suplements">
             <button>See More!</button>
           </Link>
         </div>

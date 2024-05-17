@@ -10,9 +10,6 @@ export default function Navbar() {
       </Link>
 
       <div className="navbar-list">
-        <a href="#rates" className="navbar-link navbar-item">
-          Rates
-        </a>
         <Link to="/facilities" className="navbar-link">
           <p className="navbar-item">Our Facilities</p>
         </Link>
